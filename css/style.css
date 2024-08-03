@@ -1,0 +1,17 @@
+.carousel-inner {
+  position: relative;
+}
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(0.8);
+}
+.overlay {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  background-color: rgba(0, 0, 0, 0.26);
+  z-index: 1;
+}
